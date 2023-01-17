@@ -1,0 +1,6 @@
+/**
+ * InnerCalcula
+ */
+public interface Calcula {
+
+}
