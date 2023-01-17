@@ -15,6 +15,14 @@ public class Ahub
             Double arg2 = work.nextDouble();
             System.out.println("\n" + new Plus(arg1, arg2, move));
         }
+        else if (mode.equals("2"))
+        {
+            
+        }
+        else 
+        {
+            System.out.println("Ошибка! Введён неверный номер");
+        }
         work.close();
     }
 
