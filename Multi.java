@@ -5,7 +5,7 @@ public class Multi extends Divide
         super(dig1, dig2, move);
         if (move == 3) 
         {
-            System.out.print(dig1 + "*" + dig2 + "= " + dig1*dig2);
+            System.out.print(dig1 + " * " + dig2 + " = " + dig1*dig2);
         }
     }
 }

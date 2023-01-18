@@ -6,7 +6,7 @@ public class Plus extends Minus
         if (move == 1) 
         {
             Double sum = dig1 + dig2;
-            System.out.print(dig1 + "+" + dig2 + "= " + sum);
+            System.out.print(dig1 + " + " + dig2 + " = " + sum);
         }
     }
 }

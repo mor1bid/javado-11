@@ -1,6 +1,0 @@
-/**
- * InnerCalcula
- */
-public interface Calcula {
-
-}

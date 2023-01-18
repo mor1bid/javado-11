@@ -6,7 +6,7 @@ public class Minus extends Multi
         if (move == 2) 
         {
             Double mus = dig1 - dig2;
-            System.out.print(dig1 + "-" + dig2 + "= " + mus);
+            System.out.print(dig1 + " - " + dig2 + " = " + mus);
         }
     }
 }
