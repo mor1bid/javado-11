@@ -15,6 +15,7 @@ public class Ahub
                 if (move>4 || move<1) 
                 {
                     System.out.println("Ошибка! Задано неверное значение!");
+                    System.exit(1);
                 }
                 System.out.println("Введите первый и второй аргументы через Enter:");
                 Double arg1 = work.nextDouble();
@@ -37,9 +38,10 @@ public class Ahub
             try 
             {
                 int func = work.nextInt();
-                if (func>4 || func<1) 
+                if (func>4 || func<1)
                 {
                     System.out.println("Ошибка! Задано неверное значение!");
+                    System.exit(1);
                 }
                 System.out.println("Введите желаемое число: ");
                 Double argc = work.nextDouble();
