@@ -27,6 +27,7 @@ public class Complex
             System.out.println("Ошибка! Введён неверный номер");
         }
         work.close();
+        System.exit(1);
     }
 
     public static double basedLog (double base, double argc) 
