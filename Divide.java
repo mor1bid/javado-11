@@ -5,6 +5,7 @@ public class Divide
         if (move == 4) 
         {
             System.out.print(dig1 + " / " + dig2 + " = " + dig1/dig2);
+            System.exit(1);
         }
         else if (move > 4)
         {
